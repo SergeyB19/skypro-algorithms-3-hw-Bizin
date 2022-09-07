@@ -53,7 +53,7 @@ public class Sorting {
     private static int[] generateArray(int size) {
         int[] array = new int[size];
         for (int i = 0; i < size; i++) {
-            array[i] = RANDOM.nextInt(100, -100);
+            array[i] = RANDOM.nextInt(-100, 100);
         }
         return array;
     }
